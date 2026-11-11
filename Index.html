@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Ballon d'Or | Entrar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="topo">
+        <h2 class="logo">LE BALLON <span>D'OR</span></h2>
+    </header>
+
+    <main class="entrada">
+        <div class="texto-entrada">
+            <p class="subtitulo">EXCLUSIVIDADE • ELEGÂNCIA • POTÊNCIA</p>
+            <h1>O luxo está nos <span>detalhes.</span></h1>
+            <p>
+                Descubra um universo onde a engenharia encontra a elegância.
+                Conheça automóveis extraordinários, criados para quem aprecia
+                potência, conforto e exclusividade.
+            </p>
+        </div>
+
+        <form action="produto.html" method="get" class="formulario">
+            <h2>Bem-vindo</h2>
+            <p>Preencha os seus dados para entrar.</p>
+
+            <label>Nome completo</label>
+            <input type="text" name="nome" placeholder="Digite o seu nome" required>
+
+            <label>Data de nascimento</label>
+            <input type="date" name="nascimento" required>
+
+            <label>Sexo</label>
+            <select name="sexo" required>
+                <option value="">Selecione</option>
+                <option>Masculino</option>
+                <option>Feminino</option>
+                <option>Outro</option>
+            </select>
+
+            <label>Número de telefone</label>
+            <input type="tel" name="telefone" placeholder="Digite o seu telefone" required>
+
+            <button type="submit">ENTRAR</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2026 LE BALLON D'OR — Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
